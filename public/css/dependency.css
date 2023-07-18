@@ -1,0 +1,93 @@
+.container {
+    max-width: 1440px !important;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo h2 {
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--text-regular);
+}
+
+.links {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.link a {
+    color: var(--text-regular);
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.link:hover a {
+    color: var(--text-main);
+}
+
+.link.active a {
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile-burger {
+    background: #f4f4f4;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+#mobile-menu {
+    background: #fff;
+    padding: 30px;
+    position: absolute;
+    z-index: 1000;
+    margin-left: -25px;
+    top: -300px;
+    transition: ease-in 0.2s;
+}
+
+#mobile-menu.active {
+    top: 0px;
+}
+
+.mobile-links {
+    list-style-type: none;
+}
+
+.mobile-links li {
+    text-align: center;
+}
+
+.mobile-links li:not(:nth-last-child(1)) {
+    margin-bottom: 30px;
+}
+
+.mobile-links li a {
+    color: var(--text-regular);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.mobile-links li a:hover {
+    color: var(--text-main);
+}
+
+.mobile-links a.active {
+    color: var(--text-main);
+}

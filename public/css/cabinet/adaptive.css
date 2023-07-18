@@ -1,0 +1,132 @@
+@media (max-width: 991px) {
+  .support-img {
+    display: none;
+  }
+
+  .application-img {
+    display: none;
+  }
+
+  .appl-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 25px;
+  }
+
+  .appl-card .card-header {
+    margin-bottom: 30px;
+  }
+
+  .appl-card .ml-auto.mr-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    flex-direction: column;
+  }
+
+  .appl-card .ml-auto.mr-auto div {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .appl-card .btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .iconbar {
+    display: none;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
+
+  .mobile-iconbar {
+    display: block;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  header .ml-auto.d-flex.align-items-center {
+    display: none !important;
+  }
+
+  .profile-info {
+    flex-direction: column;
+    padding: 35px 25px;
+  }
+
+  .profile-info .img-bg {
+    margin-right: 0;
+  }
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .profile-text p {
+    font-size: 14px;
+  }
+
+  .row.info .col-12 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .row.info .col-12 p {
+    margin-bottom: 0;
+  }
+
+  .row.info .col-12 h3 {
+    margin-left: auto;
+  }
+
+  .add-info p {
+    display: none;
+  }
+
+  .btn-lg {
+    padding: 22px 30px;
+  }
+
+  .profile-card .card-body {
+    padding: 35px 25px;
+  }
+
+  .card-body {
+    padding: 35px 25px;
+  }
+
+  .card-btns {
+    flex-direction: column;
+  }
+
+  .card-btns .btn {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar {
+    position: absolute;
+    left: -350px;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .bx.bx-menu {
+    display: block !important;
+  }
+}
